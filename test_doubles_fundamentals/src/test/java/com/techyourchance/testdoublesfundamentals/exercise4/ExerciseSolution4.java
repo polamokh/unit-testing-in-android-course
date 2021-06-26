@@ -6,12 +6,13 @@ import com.techyourchance.testdoublesfundamentals.exercise4.networking.UserProfi
 import com.techyourchance.testdoublesfundamentals.exercise4.users.User;
 import com.techyourchance.testdoublesfundamentals.exercise4.users.UsersCache;
 
-import org.jetbrains.annotations.Nullable;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import jdk.internal.jline.internal.Nullable;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.nullValue;
